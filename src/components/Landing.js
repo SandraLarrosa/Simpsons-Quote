@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../stylesheets/landing.scss';
 
 const Landing = (props) => {
@@ -16,7 +17,9 @@ const Landing = (props) => {
             <span>The Simpsons</span>
             <span>Quotes</span>
           </h1>
-          <button className='button-init'>Dame una cita</button>
+          <Link to='/quote'>
+            <div className='button-init'>Dame una cita</div>
+          </Link>
         </div>
         <div className='gif__jesus'>
           <img
