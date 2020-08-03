@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Simpsonfont';
+  src: url('../fonts/Simpsonfont.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-transform: none;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Simpsonfont';
+}
+
+body {
+  width: 100%;
+  height: 80vh;
+  background: url('../images/wallpaperflare.com_wallpaper.jpg') no-repeat center
+    top;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: kenburns-left 5s ease-out both;
+}
+
