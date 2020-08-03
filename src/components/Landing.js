@@ -18,7 +18,7 @@ const Landing = (props) => {
             <span>Quotes</span>
           </h1>
           <Link to='/quote'>
-            <div className='button-init'>Dame una cita</div>
+            <div className='button-init'>Give Me A Quote</div>
           </Link>
         </div>
         <div className='gif__jesus'>
