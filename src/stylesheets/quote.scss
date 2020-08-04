@@ -1,0 +1,42 @@
+.contain__quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain__title {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+    -webkit-text-stroke: 1px rgb(39, 39, 39);
+    text-shadow: 1px 1px 3px black;
+
+    @media all and(min-width: 768px){
+      font-size: 50px;
+    }
+  }
+
+  &__button{
+      cursor: pointer;
+      background-color: violet;
+      color: yellow;
+      -webkit-text-stroke: 0.5px rgb(39, 39, 39);
+      text-shadow: 1px 1px 3px black;
+      box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.63);
+      border: inherit;
+      padding: 5px;
+      border-radius: 10px;
+  }
+}
+
+.contain__cards{
+    margin-top: 30px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import CardQuote from './CardQuote';
+import '../stylesheets/quote.scss';
 
 const Quote = (props) => {
   const quotes = props.quote.map((quote) => {
@@ -13,14 +14,18 @@ const Quote = (props) => {
       />
     );
   });
-    const getQuote = (ev) => {
-        props.getQuote(ev)
-    }
+  const getQuote = (ev) => {
+    props.getQuote(ev);
+  };
   return (
-    <main>
-      <h1>The Simpsons Quote</h1>
-      <button onClick={getQuote}>Give me more</button>
-      <section>{quotes}</section>
+    <main className='contain__quote'>
+      <div className='contain__title'>
+        <h1 className='contain__title__title'>The Simpsons Quote</h1>
+        <button onClick={getQuote} className='contain__title__button'>
+          Give me more
+        </button>
+      </div>
+      <section className='contain__cards'>{quotes}</section>
     </main>
   );
 };
