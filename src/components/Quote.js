@@ -1,5 +1,6 @@
 import React from 'react';
 import CardQuote from './CardQuote';
+import { Link } from 'react-router-dom';
 import '../stylesheets/quote.scss';
 
 const Quote = (props) => {
@@ -20,7 +21,9 @@ const Quote = (props) => {
   return (
     <main className='contain__quote'>
       <div className='contain__title'>
-        <h1 className='contain__title__title'>The Simpsons Quote</h1>
+        <Link to='/'>
+          <h1 className='contain__title__title'>The Simpsons Quote</h1>
+        </Link>
         <button onClick={getQuote} className='contain__title__button'>
           Give me more
         </button>
