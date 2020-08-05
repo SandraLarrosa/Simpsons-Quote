@@ -1,26 +1,26 @@
-##SIMPSONS QUOTES
+## SIMPSONS QUOTES
 En este repositorio encontrarás un proyecto creado para poder practicar con React y React Router. 
 El proyecto consiste en una aplicación que te genera citas aleatorias de los distintos personajes de los Simpsons.
 
-![alt text](https://drive.google.com/file/d/1Rb5A07cHePqyjwL8GNy0OlagtPdx1byf/view?usp=sharing)
+![Landing](https://github.com/SandraLarrosa/Simpsons-Quote.git/blob/master/src/images/LANDING.png)
 
 
-####Funcionalidades ✔️
+#### Funcionalidades ✔️
 - Landing inicial con animaciones dónde te aparece un botón "Give me a Quote" para generar la cita aleatoria.
 - En la página principal, te muestra una tarjeta con el nombre del personaje, una cita y la imagen del personaje.
 - Botón "Give me more" dónde te genera otra cita aleatoria de un personaje diferente.
 
-####Extras ⭐
+#### Extras ⭐
 - Web completamente responsive, adaptada a todos los dispositivos.
 
 
-####Tecnologías utilizadas ⚙️
+#### Tecnologías utilizadas ⚙️
 HTML5, CSS3, SASS, JavaScript y React.
 
-####Instalación 🔧
+#### Instalación 🔧
 Necesitarás instalar 📋 Node.js para trabajar con este repositorio.
 
-#####Descarga o clona el repositorio. ⚙️
+##### Descarga o clona el repositorio. ⚙️
 ```bash 
 $ git clone https://github.com/SandraLarrosa/Simpsons-Quote.git
 ```
@@ -36,5 +36,5 @@ $ npm start
 ```
 
 
-####*Autora*
+#### *Autora*
 Proyecto realizado por Alexandra López Larrosa😊
