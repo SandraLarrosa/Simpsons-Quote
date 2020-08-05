@@ -2,7 +2,7 @@
 En este repositorio encontrarás un proyecto creado para poder practicar con React y React Router. 
 El proyecto consiste en una aplicación que te genera citas aleatorias de los distintos personajes de los Simpsons.
 
-![Landing](https://github.com/SandraLarrosa/Simpsons-Quote.git/blob/master/src/images/LANDING.png)
+![Landing](https://github.com/SandraLarrosa/Simpsons-Quote/blob/master/src/images/LANDING.png)
 
 
 #### Funcionalidades ✔️
