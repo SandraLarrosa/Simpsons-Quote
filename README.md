@@ -41,4 +41,4 @@ $ npm start
 
 
 #### *Autora*
-Proyecto realizado por Alexandra López Larrosa😊
+Proyecto realizado por Alexandra López Larrosa
