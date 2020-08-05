@@ -11,8 +11,8 @@ El proyecto consiste en una aplicación que te genera citas aleatorias de los di
 - Botón "Give me more" dónde te genera otra cita aleatoria de un personaje diferente.
 
 <div display="flex">
-    <img src="https://github.com/SandraLarrosa/Simpsons-Quote/blob/master/src/images/quote--duffman.png" width="300">
-    <img src="https://github.com/SandraLarrosa/Simpsons-Quote/blob/master/src/images/quote--homer.png" width="300">
+    <img src="https://github.com/SandraLarrosa/Simpsons-Quote/blob/master/src/images/quote--duffman.png" width="300" heigth="300">
+    <img src="https://github.com/SandraLarrosa/Simpsons-Quote/blob/master/src/images/quote--homer.png" width="300" heigth="300">
 </div>
 
 #### Extras ⭐
